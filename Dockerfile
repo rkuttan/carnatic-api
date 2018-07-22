@@ -9,7 +9,7 @@ WORKDIR /carnatic-api
 RUN npm install
 
 # Expose API port to the outside
-EXPOSE 80
+EXPOSE 3000
 
 # Launch application
 CMD ["npm","start"]
