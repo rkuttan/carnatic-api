@@ -7,7 +7,7 @@ router.use(bodyParser.json());
 var Note = require('./Note');
 
 // CREATES A NEW NOTEObject
-router.post('/', function (req, res) {
+/*router.post('/', function (req, res) {
     Note.create({
       symbol: req.body.symbol,
       description: req.body.description,
@@ -21,13 +21,17 @@ router.post('/', function (req, res) {
             if (err) return res.status(500).send("There was a problem adding the information to the database.");
             res.status(200).send(note);
         });
-});
+});*/
 // RETURNS ALL THE NOTES IN THE DATABASE
-router.get('/', function (req, res) {
+/*router.get('/', function (req, res) {
     Note.find({}, function (err, users) {
         if (err) return res.status(500).send("There was a problem finding the users.");
         res.status(200).send(users);
     });
-});
+});*/
+
+router.get('/', function (req, res) {
+        res.status(200).send("API running");
+    });
 
 module.exports = router;
