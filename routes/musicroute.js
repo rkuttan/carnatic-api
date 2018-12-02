@@ -1,10 +1,12 @@
-/* UserController.js */
-var express = require('express');
-var router = express.Router();
-var bodyParser = require('body-parser');
-router.use(bodyParser.urlencoded({ extended: true }));
-router.use(bodyParser.json());
-var Note = require('./Note');
+/* musicroute.js
+   Main entry point for all music entities
+*/
+module.exports = function(httpServer)
+{
+  /*var bodyParser = require('body-parser');
+  httpServer.use(bodyParser.urlencoded({ extended: true }));
+  httpServer.use(bodyParser.json());
+//var Note = require('./Note');
 
 // CREATES A NEW NOTEObject
 /*router.post('/', function (req, res) {
@@ -30,8 +32,16 @@ var Note = require('./Note');
     });
 });*/
 
-router.get('/', function (req, res) {
-        res.status(200).send("API running");
-    });
+  mongoose = require('../db');
+  httpServer.get('/', function (req, res, next) {
+    console.log("API called")
 
-module.exports = router;
+        /*if(err)
+        {
+          return next(err);
+        }
+        else*/
+          res.status(200).send("Music API running");
+    });
+  require('./noteroute')(httpServer);
+}
