@@ -44,4 +44,5 @@ module.exports = function(httpServer)
           res.status(200).send("Music API running");
     });
   require('./noteroute')(httpServer);
+  require('./raagaroute')(httpServer);
 }

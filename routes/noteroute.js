@@ -11,12 +11,16 @@ module.exports = function(httpServer)
   });*/
 
 
+
+httpServer.get('/note/:id', music_controller.getnote);
 httpServer.post('/note', music_controller.addnote);
-httpServer.get('/note/:symbol', music_controller.getnote);
-httpServer.put('/note/:symbol', music_controller.updatenote);
-httpServer.delete('/note/:symbol', music_controller.deletenote);
+httpServer.patch('/note/:id', music_controller.updatenote);
+httpServer.delete('/note/:id', music_controller.deletenote);
+
 httpServer.get('/notes', music_controller.getallnotes);
 httpServer.get('/note/base/:basename', music_controller.getbasenote);
-
+httpServer.patch('/note/:id/language', music_controller.updatenotelanguage);
+httpServer.get('/note/:id/language/:language', music_controller.getnotelanguage);
+httpServer.delete('/note/:id/language/:language', music_controller.deletenotelanguage)
 
 }

@@ -1,0 +1,244 @@
+[    
+    {
+        "westernnotation": {
+            "name": "C",
+            "notation": "C"
+        },
+        "_id": "Sa",
+        "languages": [
+            {
+
+                "language": "malayalam",
+                "symbol": "സ",
+                "basename": "ഷഡ്ജം",
+                "description": "ഷഡ്ജം"
+            }
+        ]
+
+    },
+    {
+       "westernnotation": {
+           "name": "D Flat",
+           "notation": "D Flat"
+       },
+       "_id": "Ri1",
+       "languages": [
+           {
+               "language": "malayalam",
+               "symbol": "രി1",
+               "basename": "ഋഷഭം",
+               "description": "ശുദ്ധഋഷഭം"
+           }
+       ]
+   },
+   {
+      "westernnotation": {
+          "name": "D",
+          "notation": "D"
+      },
+      "_id": "Ri2",
+      "languages": [
+          {
+              "language": "malayalam",
+              "symbol": "രി2",
+              "basename": "ഋഷഭം",
+              "description": "ചതു:ശ്രുതിഋഷഭം"
+          }
+      ]
+  },
+  {
+      "westernnotation": {
+          "name": "D",
+          "notation": "D"
+      },
+      "languages": [
+          {
+              "language": "malayalam",
+              "symbol": "ഗ3",
+              "basename": "ഗാന്ധാര",
+              "description": "ശുദ്ധഗാന്ധാരം"
+          }
+      ],
+      "_id": "Ga3"
+  },
+  {
+      "westernnotation": {
+          "name": "E Flat",
+          "notation": "E Flat"
+      },
+      "languages": [
+          {
+              "language": "malayalam",
+              "symbol": "ഗ1",
+              "basename": "ഗാന്ധാരം",
+              "description": "സാധാരണഗാന്ധാരം"
+          }
+      ],
+      "_id": "Ga1"
+  },
+  {
+     "westernnotation": {
+         "name": "E Flat",
+         "notation": "E Flat"
+     },
+     "_id": "Ri3",
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "രി3",
+             "basename": "ഋഷഭം",
+             "description": "ഷഡ്‌ശ്രുതിഋഷഭംം"
+         }
+     ]
+ },
+ {
+     "westernnotation": {
+         "name": "E",
+         "notation": "E"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "ഗ2",
+             "basename": "",
+             "description": "അന്തരഗാന്ധാരം"
+         }
+     ],
+     "_id": "Ga2"
+ },
+ {
+     "westernnotation": {
+         "name": "F",
+         "notation": "F"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "മ1",
+             "basename": "മധ്യമം",
+             "description": "ശുദ്ധമധ്യമം"
+         }
+     ],
+     "_id": "Ma1"
+ },
+ {
+     "westernnotation": {
+         "name": "F Sharp",
+         "notation": "F Sharp"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "മ2",
+             "basename": "മധ്യമം",
+             "description": "പ്രതിമധ്യമം"
+         }
+     ],
+     "_id": "Ma2"
+ },
+ {
+     "westernnotation": {
+         "name": "G",
+         "notation": "G"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "പ",
+             "basename": "പഞ്ചമം",
+             "description": "പഞ്ചമം"
+         }
+     ],
+     "_id": "Pa"
+ },
+ {
+     "westernnotation": {
+         "name": "A Flat",
+         "notation": "A Flat"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "ധ1",
+             "basename": "ധൈവതം",
+             "description": "ശുദ്ധധൈവതം"
+         }
+     ],
+     "_id": "Dha1"
+ },
+ {
+     "westernnotation": {
+         "name": "A",
+         "notation": "A"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "ധ2",
+             "basename": "ധൈവതം",
+             "description": "ചതു:ശ്രുതിധൈവതം"
+         }
+     ],
+     "_id": "Dha2"
+ },
+ {
+     "westernnotation": {
+         "name": "A",
+         "notation": "A"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "നി3",
+             "basename": "നിഷാദം",
+             "description": "ശുദ്ധനിഷാദം"
+         }
+     ],
+     "_id": "Ni3"
+ },
+ {
+     "westernnotation": {
+         "name": "B Flat",
+         "notation": "B Flat"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "നി1",
+             "basename": "നിഷാദം",
+             "description": "കൈശികിനിഷാദം"
+         }
+     ],
+     "_id": "Ni1"
+ },
+ {
+     "westernnotation": {
+         "name": "B",
+         "notation": "B"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "നി2",
+             "basename": "നിഷാദം",
+             "description": "കാകളിനിഷാദം"
+         }
+     ],
+     "_id": "Ni2"
+ },
+ {
+     "westernnotation": {
+         "name": "B Flat",
+         "notation": "B Flat"
+     },
+     "languages": [
+         {
+             "language": "malayalam",
+             "symbol": "ധ3",
+             "basename": "ധൈവതം",
+             "description": "ഷഡ്‌ശ്രുതിധൈവതം"
+         }
+     ],
+     "_id": "Dha3"
+ }
+]
