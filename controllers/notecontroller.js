@@ -2,7 +2,8 @@ var Note = require("../models/note")
 
 
 exports.getnote = function(req, res, next){
-  Note.findById(req.params.id, function(err, note) {
+  console.log("Got Language "+req.language)
+  Note.findById(req.params.id, {languages: {$elemMatch: {"$or": [{language: req.language},{language: "en"}]}}}, {"languages.$": 1}, function(err, note) {
     if (err)
       return next(err);
     else if (note === null)

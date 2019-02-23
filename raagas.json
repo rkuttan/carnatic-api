@@ -1,0 +1,21 @@
+[
+  {
+  "parent": true,
+  "origin": "melakartha",
+  "melakarthanum": 29,
+  "languages": [{
+     "language": "ml",
+     "name": "ധീരശങ്കരാഭരണം",
+     "description": "29 മേളകർത്ത രാഗം",
+     "chakraname": "ബാണ"
+  },
+  {
+      "language": "en",
+      "name": "Dheerashankarabharanam",
+      "description": "29 Melakartha raagam",
+      "chakraname": "Baana"
+   }],
+  "aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+  "avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+}
+]

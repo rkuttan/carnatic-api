@@ -1,4 +1,4 @@
-[    
+[
     {
         "westernnotation": {
             "name": "C",
@@ -8,10 +8,17 @@
         "languages": [
             {
 
-                "language": "malayalam",
+                "language": "ml",
                 "symbol": "സ",
                 "basename": "ഷഡ്ജം",
                 "description": "ഷഡ്ജം"
+            },
+            {
+
+                "language": "en",
+                "symbol": "Sa",
+                "basename": "Shadjam",
+                "description": "Shadjam"
             }
         ]
 
@@ -24,10 +31,16 @@
        "_id": "Ri1",
        "languages": [
            {
-               "language": "malayalam",
+               "language": "ml",
                "symbol": "രി1",
                "basename": "ഋഷഭം",
                "description": "ശുദ്ധഋഷഭം"
+           },
+           {
+               "language": "en",
+               "symbol": "Ri1",
+               "basename": "Rishabham",
+               "description": "Shuddarishabham"
            }
        ]
    },
@@ -39,10 +52,16 @@
       "_id": "Ri2",
       "languages": [
           {
-              "language": "malayalam",
+              "language": "ml",
               "symbol": "രി2",
               "basename": "ഋഷഭം",
               "description": "ചതു:ശ്രുതിഋഷഭം"
+          },
+          {
+              "language": "en",
+              "symbol": "Ri2",
+              "basename": "Rishibham",
+              "description": "Chatshrutirishabham"
           }
       ]
   },
@@ -53,10 +72,16 @@
       },
       "languages": [
           {
-              "language": "malayalam",
+              "language": "ml",
               "symbol": "ഗ3",
               "basename": "ഗാന്ധാര",
               "description": "ശുദ്ധഗാന്ധാരം"
+          },
+          {
+              "language": "en",
+              "symbol": "Ga3",
+              "basename": "Gandhaaram",
+              "description": "Shuddhagandaaram"
           }
       ],
       "_id": "Ga3"
@@ -68,10 +93,16 @@
       },
       "languages": [
           {
-              "language": "malayalam",
+              "language": "ml",
               "symbol": "ഗ1",
               "basename": "ഗാന്ധാരം",
               "description": "സാധാരണഗാന്ധാരം"
+          },
+          {
+              "language": "en",
+              "symbol": "Ga1",
+              "basename": "Gandhaaramം",
+              "description": "Saadharanagaandharam"
           }
       ],
       "_id": "Ga1"
@@ -84,10 +115,16 @@
      "_id": "Ri3",
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "രി3",
              "basename": "ഋഷഭം",
              "description": "ഷഡ്‌ശ്രുതിഋഷഭംം"
+         },
+         {
+             "language": "en",
+             "symbol": "Ri3",
+             "basename": "Rishabhamം",
+             "description": "ShadshrutiRishabham"
          }
      ]
  },
@@ -98,10 +135,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "ഗ2",
-             "basename": "",
+             "basename": "ഗാന്ധാരം",
              "description": "അന്തരഗാന്ധാരം"
+         },
+         {
+             "language": "en",
+             "symbol": "Ga2",
+             "basename": "Gaandhaaram",
+             "description": "Antharagaandhaaram"
          }
      ],
      "_id": "Ga2"
@@ -113,10 +156,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "മ1",
              "basename": "മധ്യമം",
              "description": "ശുദ്ധമധ്യമം"
+         },
+         {
+             "language": "en",
+             "symbol": "Ma1",
+             "basename": "Madhyamamം",
+             "description": "Shuddhamadhyamamം"
          }
      ],
      "_id": "Ma1"
@@ -128,10 +177,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "മ2",
              "basename": "മധ്യമം",
              "description": "പ്രതിമധ്യമം"
+         },
+         {
+             "language": "en",
+             "symbol": "Ma2",
+             "basename": "Madhayamamം",
+             "description": "Pratimadhyamamം"
          }
      ],
      "_id": "Ma2"
@@ -143,10 +198,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "പ",
              "basename": "പഞ്ചമം",
              "description": "പഞ്ചമം"
+         },
+         {
+             "language": "en",
+             "symbol": "Pa",
+             "basename": "Panchamamം",
+             "description": "Panchamam"
          }
      ],
      "_id": "Pa"
@@ -158,10 +219,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "ധ1",
              "basename": "ധൈവതം",
              "description": "ശുദ്ധധൈവതം"
+         },
+         {
+             "language": "en",
+             "symbol": "Dha1",
+             "basename": "Dhaivathamം",
+             "description": "Shuddhadhaivatham"
          }
      ],
      "_id": "Dha1"
@@ -173,10 +240,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "ധ2",
              "basename": "ധൈവതം",
              "description": "ചതു:ശ്രുതിധൈവതം"
+         },
+         {
+             "language": "en",
+             "symbol": "Dha2",
+             "basename": "Dhaivathamം",
+             "description": "Chatshrutidhaivatham"
          }
      ],
      "_id": "Dha2"
@@ -188,10 +261,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "നി3",
              "basename": "നിഷാദം",
              "description": "ശുദ്ധനിഷാദം"
+         },
+         {
+             "language": "en",
+             "symbol": "Ni3",
+             "basename": "Nishadham",
+             "description": "Shuddhanishadham"
          }
      ],
      "_id": "Ni3"
@@ -203,10 +282,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "നി1",
              "basename": "നിഷാദം",
              "description": "കൈശികിനിഷാദം"
+         },
+         {
+             "language": "en",
+             "symbol": "Ni1",
+             "basename": "Nishadhamം",
+             "description": "Kaishikinishadham"
          }
      ],
      "_id": "Ni1"
@@ -218,10 +303,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "നി2",
              "basename": "നിഷാദം",
              "description": "കാകളിനിഷാദം"
+         },
+         {
+             "language": "en",
+             "symbol": "Ni2",
+             "basename": "Nishadhamം",
+             "description": "Kakalinishadham"
          }
      ],
      "_id": "Ni2"
@@ -233,10 +324,16 @@
      },
      "languages": [
          {
-             "language": "malayalam",
+             "language": "ml",
              "symbol": "ധ3",
              "basename": "ധൈവതം",
              "description": "ഷഡ്‌ശ്രുതിധൈവതം"
+         },
+         {
+             "language": "en",
+             "symbol": "Dha3",
+             "basename": "Dhaivathamം",
+             "description": "Shadshrutidhaivatham"
          }
      ],
      "_id": "Dha3"
