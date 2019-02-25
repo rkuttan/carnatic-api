@@ -17,5 +17,195 @@
    }],
   "aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
   "avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 30,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 31,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 32,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 33,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 34,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 35,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 36,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 37,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 38,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
+},
+{
+"parent": true,
+"origin": "melakartha",
+"melakarthanum": 39,
+"languages": [{
+   "language": "ml",
+   "name": "ധീരശങ്കരാഭരണം",
+   "description": "29 മേളകർത്ത രാഗം",
+   "chakraname": "ബാണ"
+},
+{
+    "language": "en",
+    "name": "Dheerashankarabharanam",
+    "description": "29 Melakartha raagam",
+    "chakraname": "Baana"
+ }],
+"aarohanam": [ "Sa", "Ri2", "Ga2", "Ma1", "Pa", "Dha2", "Ni2", "Sa"],
+"avarohanam": [ "Sa", "Ni2", "Dha2", "Pa", "Ma1", "Ga2", "Ri2", "Sa"]
 }
 ]
