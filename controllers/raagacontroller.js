@@ -24,7 +24,9 @@ for(i=0;i<req.body.length;i++) {
 }
 
 exports.getraaga = function(req, res, next){
-  Raaga.findById(req.params.id, {_id:0, 'parent':1, 'melakarthanum':1,'origin':1, languages: {$elemMatch: {language: req.language}}}, function(err, raaga) {
+  console.log("Got language raaga "+req.language)
+  //Raaga.findById(req.params.id, {_id:0, 'parent':1, 'melakarthanum':1,'origin':1, languages: {$elemMatch: {language: req.language}}}, function(err, raaga) {
+  Raaga.findById(req.params.id, {'_id':0, 'parent':1, 'melakarthanum':1,'origin':1, languages: {$elemMatch: {"$or": [{ language: "en"}, {language: req.language}]}}}, function(err, raaga) {
     if (err)
       return next(err);
     else if (raaga === null)
@@ -35,9 +37,11 @@ exports.getraaga = function(req, res, next){
       res.status(200).send(raaga);
     }
   }).populate({path: 'aarohanam',
-               select: { languages: { $elemMatch: { language: req.language }}}}).
+               //select: { languages: { $elemMatch: { language: req.language }}}}).
+               select: { languages: { $elemMatch: {"$or":[{ language: req.language }, { language: "en" }]}}}}).
      populate({path: 'avarohanam',
-               select: { languages: { $elemMatch: { language: req.language } }}})
+               //select: { languages: { $elemMatch: { language: req.language } }}})
+               select: { languages: { $elemMatch: {"$or":[{ language: req.language }, { language: "en" }]}}}})
 }
 
 
@@ -61,10 +65,12 @@ var options = {
     page: pagenum,
     select: {'parent':1, 'melakarthanum':1,'origin':1, languages: {$elemMatch: {language: req.language}}},
     populate: [{  path: 'aarohanam',
-                  select: { languages: { $elemMatch: { language: req.language }}}
+                  //select: { languages: { $elemMatch: { language: req.language }}}
+                  select: { languages: { $elemMatch: {'$or':[{ language: req.language }, { language: 'en' }]}}}
                },
                {  path: 'avarohanam',
-                  select: { languages: { $elemMatch: { language: req.language }}}
+                  //select: { languages: { $elemMatch: { language: req.language }}}
+                  select: { languages: { $elemMatch: {'$or':[{ language: req.language }, { language: 'en' }]}}}
                }],
     customLabels: myCustomLabels
 };
@@ -101,6 +107,34 @@ exports.updateraaga = function(req, res, next){
 
 exports.deleteraaga = function(req, res, next){
   Raaga.findByIdAndRemove(req.params.id, function(err, raaga) {
+    if (err)
+      return next(err);
+    else if (raaga === null)
+      return next()
+    else
+    {
+      console.log(raaga)
+      res.status(200).send(raaga);
+    }
+  })
+}
+
+exports.updateraagalanguage = function(req, res, next){
+  Raaga.findByIdAndUpdate(req.params.id, {$push: {languages: req.body}}, {new:true}, function(err, raaga){
+    if (err)
+      return next(err);
+    else if (raaga === null)
+      return next()
+    else
+    {
+      console.log(raaga)
+      res.status(200).send(raaga);
+    }
+  })
+}
+
+exports.deleteraagalanguage = function(req, res, next){
+  Raaga.findByIdAndUpdate(req.params.id, {$pull: {languages: {language: req.params.language}}}, {new:true}, function(err, raaga){
     if (err)
       return next(err);
     else if (raaga === null)

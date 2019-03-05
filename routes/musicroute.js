@@ -5,7 +5,10 @@ module.exports = function(httpServer)
 {
   mongoose = require('../db');
   httpServer.use(function(req, res, next){
-    req.language = req.header("Accept-Language")
+    var language = req.header("Accept-Language")
+    /*if(language === undefined)
+      language = "en"*/
+    req.language = language
     console.log("Language set to "+req.language)
     next()
   })
