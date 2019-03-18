@@ -1,0 +1,25 @@
+version: "3"
+services:
+  carnatic-api:
+    image: rishikeshk/carnatic-api:1.0
+    ports:
+      - "80:3000"
+    networks:
+      - carnatic-net
+    depends_on:
+      - carnatic-db
+    environment:
+      - DB_HOST=carnatic-db
+
+  carnatic-db:
+    image: mongo:4.1
+    volumes:
+      - carnatic-data:/data/db
+    networks:
+      - carnatic-net
+
+networks:
+  carnatic-net:
+
+volumes:
+  carnatic-data:
