@@ -1,5 +1,6 @@
 var Note = require("../models/note")
 var Raaga = require("../models/raaga")
+var commonutils = require("../utils/common.js")
 require('mongoose-paginate-v2');
 exports.addraaga = function (req, res, next) {
 var multiraagas = []
@@ -47,6 +48,8 @@ exports.getraaga = function(req, res, next){
 
 exports.getraagalist = function(req, res, next){
   var pagenum =  parseInt(req.query.page, 10)
+  var searchcriteria = req.body
+  var query = commonutils.formquery(searchcriteria, req.language)
   if(Number.isNaN(pagenum))
      pagenum = 1
   const myCustomLabels = {
@@ -75,7 +78,7 @@ var options = {
     customLabels: myCustomLabels
 };
 
-  Raaga.paginate({}, options, function(err, raagaresult) {
+  Raaga.paginate(query, options, function(err, raagaresult) {
    if (err)
      return next(err);
    else if (raagaresult.raagas === null)
