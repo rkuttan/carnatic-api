@@ -47,9 +47,10 @@ exports.getraaga = function(req, res, next){
 
 
 exports.getraagalist = function(req, res, next){
+  console.log("Entered in get Raaga list")
   var pagenum =  parseInt(req.query.page, 10)
-  var searchcriteria = req.body
-  var query = commonutils.formquery(searchcriteria, req.language)
+ 
+  var query = commonutils.formquery(req, req.language)
   if(Number.isNaN(pagenum))
      pagenum = 1
   const myCustomLabels = {
