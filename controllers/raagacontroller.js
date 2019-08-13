@@ -24,10 +24,32 @@ for(i=0;i<req.body.length;i++) {
     })
 }
 
+/*exports.getraaga = function(req, res, next){
+  console.log("Got language raaga "+req.language)
+  //Raaga.findById(req.params.id, {_id:0, 'parent':1, 'melakarthanum':1,'origin':1, languages: {$elemMatch: {language: req.language}}}, function(err, raaga) {
+  Raaga.findById(req.params.id, {'_id':1, 'parent':1, 'melakarthanum':1,'origin':1, languages: {$elemMatch: {"$or": [{ language: "en"}, {language: req.language}]}}}, function(err, raaga) {
+    if (err)
+      return next(err);
+    else if (raaga === null)
+      return next()
+    else
+    {
+      console.log(raaga)
+      res.status(200).send(raaga);
+    }
+  }).populate({path: 'aarohanam',
+               //select: { languages: { $elemMatch: { language: req.language }}}}).
+               select: { languages: { $elemMatch: {"$or":[{ language: req.language }, { language: "en" }]}}}}).
+     populate({path: 'avarohanam',
+               //select: { languages: { $elemMatch: { language: req.language } }}})
+               select: { languages: { $elemMatch: {"$or":[{ language: req.language }, { language: "en" }]}}}})
+}*/
+
+
 exports.getraaga = function(req, res, next){
   console.log("Got language raaga "+req.language)
   //Raaga.findById(req.params.id, {_id:0, 'parent':1, 'melakarthanum':1,'origin':1, languages: {$elemMatch: {language: req.language}}}, function(err, raaga) {
-  Raaga.findById(req.params.id, {'_id':0, 'parent':1, 'melakarthanum':1,'origin':1, languages: {$elemMatch: {"$or": [{ language: "en"}, {language: req.language}]}}}, function(err, raaga) {
+  Raaga.findById(req.params.id, {'_id':1, 'parent':1, 'melakarthanum':1,'origin':1, 'languages': 1}, function(err, raaga) {
     if (err)
       return next(err);
     else if (raaga === null)
