@@ -47,7 +47,8 @@ exports.deletenote = function(req, res, next){
 }
 
 exports.getallnotes = function(req, res, next){
-  Note.find({}, function(err, notes) {
+  console.log("Get all notes "+req.params.language)
+  Note.find({languages: {$elemMatch: {language: req.language}}}, {"languages.$": 1}, function(err, notes) {
     if (err)
       return next(err);
     else if (notes === null)
