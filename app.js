@@ -6,7 +6,8 @@ var cors = require('cors')
 httpServer.use(bodyParser.urlencoded({ extended: true }));
 httpServer.use(bodyParser.json());
 var corsOptions = {
-  origin: 'http://localhost:4200',
+  //origin: 'http://localhost:4200',
+  origin: process.env.CORS_HOST_ORIGIN,
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 httpServer.use(cors(corsOptions));
